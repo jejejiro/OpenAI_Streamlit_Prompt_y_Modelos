@@ -68,7 +68,7 @@ def main():
         st.session_state.respuesta = respuesta
         st.write(st.session_state.respuesta)
         st.session_state.historial.append(respuesta)
-        st.write(st.session_state)
+        #st.write(st.session_state)
 
 
 
