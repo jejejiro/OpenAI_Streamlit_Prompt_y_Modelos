@@ -55,7 +55,7 @@ def main():
         st.session_state.respuesta = ""
 
     if "modelo" not in st.session_state:
-        st.session_state.modelo = ["gpt-4o", "gpt-4.1-nano"]
+        st.session_state.modelo = ["gpt-4.1-mini", "gpt-4.1-nano"]
 
     api = st.text_input("Introduce tu api de OpenAI")
     if api:
