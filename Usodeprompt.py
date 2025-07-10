@@ -43,7 +43,7 @@ def sidebar():
 
 def main():
     if "plantilla" not in st.session_state:
-        st.session_state.plantilla = ["Eres un experto en redacción de articulos SEO", "Eres un experto en redacción de twitter con no mas de 140 caracteres", "Eres un experto en redacción de recetas de cocina", "Eres un programador Python. Proporciona el codigo Python, sin explicaciones ni comentarios adicionales."]
+        st.session_state.plantilla = ["Eres un experto en recetas de cocina solo de frutas", "Eres un experto en redacción de twitter con no mas de 140 caracteres", "Eres un experto en redacción de recetas de cocina", "Eres un programador Python. Proporciona el codigo Python, sin explicaciones ni comentarios adicionales."]
 
     if "api" not in st.session_state:
         st.session_state.api = None
